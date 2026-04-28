@@ -1,0 +1,8 @@
+scvi-tools
+scanpy
+pandas
+numpy
+matplotlib
+scikit-learn
+ipykernel
+notebook
