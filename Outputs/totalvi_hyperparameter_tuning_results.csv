@@ -1,0 +1,9 @@
+trial,n_latent,n_layers,n_hidden,dropout_rate,lr,batch_size,max_epochs,runtime_seconds,final_train_elbo,final_validation_elbo,latent_file
+trial_01_baseline,10,1,128,0.1,0.001,128,20,29.72074604034424,4898.34130859375,5028.2548828125,outputs/trial_01_baseline_latent_representation.csv
+trial_02_more_layers,10,2,128,0.1,0.001,128,20,40.8821804523468,4904.630859375,5020.2841796875,outputs/trial_02_more_layers_latent_representation.csv
+trial_03_more_latent,20,1,128,0.1,0.001,128,20,43.524380683898926,4896.51953125,5221.2373046875,outputs/trial_03_more_latent_latent_representation.csv
+trial_04_latent_layers,20,2,128,0.1,0.001,128,20,33.65012836456299,4899.775390625,5183.31591796875,outputs/trial_04_latent_layers_latent_representation.csv
+trial_05_wider_network,20,2,256,0.1,0.001,128,20,35.45129704475403,4885.91064453125,4982.08056640625,outputs/trial_05_wider_network_latent_representation.csv
+trial_06_more_dropout,20,2,256,0.2,0.001,128,20,35.19731640815735,4878.60205078125,4900.99853515625,outputs/trial_06_more_dropout_latent_representation.csv
+trial_07_larger_latent,30,2,256,0.1,0.001,128,20,35.12111020088196,4871.96826171875,5112.490234375,outputs/trial_07_larger_latent_latent_representation.csv
+trial_08_lower_lr,20,2,256,0.1,0.0005,128,20,35.687992572784424,4977.96484375,5152.1572265625,outputs/trial_08_lower_lr_latent_representation.csv

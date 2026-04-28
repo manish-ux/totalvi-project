@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv_totalvi/
+venv_tf215/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model/output folders that may be large
+Outputs/*model*/
+Outputs/tuning_models/
+outputs/*model*/
+outputs/tuning_models/
+*.ckpt
+*.pt
+*.pth
+*.h5
+
+# Large downloaded data/cache
+Data/*.h5ad
+Data/*.h5
+Data/*.zip
+Data/*.tar
+Data/*.gz
+data/*.h5ad
+data/*.h5
+data/*.zip
+data/*.tar
+data/*.gz
+
+# Logs
+*.log
+
+scvi-tools/
+venv_totalvi/

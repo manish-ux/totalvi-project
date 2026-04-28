@@ -1,0 +1,2 @@
+trial,n_latent,n_layers,n_hidden,dropout_rate,lr,batch_size,max_epochs,runtime_seconds,final_train_elbo,final_validation_elbo,latent_file
+trial_06_more_dropout,20,2,256,0.2,0.001,128,20,35.19731640815735,4878.60205078125,4900.99853515625,outputs/trial_06_more_dropout_latent_representation.csv
